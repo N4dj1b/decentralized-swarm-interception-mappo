@@ -1,0 +1,25 @@
+{
+  "learned_mappo": {
+    "episodes": 1000,
+    "full_defense_rate": 0.999,
+    "intruder_interception_rate": 0.9996666666666667,
+    "mean_captured_per_episode": 2.999,
+    "mean_leaked_per_episode": 0.001,
+    "mean_time_to_capture": 16.213833333333334,
+    "mean_episode_steps": 26.043
+  },
+  "assignment_baseline": {
+    "episodes": 1000,
+    "full_defense_rate": 0.973,
+    "intruder_interception_rate": 0.991,
+    "mean_captured_per_episode": 2.973,
+    "mean_leaked_per_episode": 0.027,
+    "mean_time_to_capture": 11.8625,
+    "mean_episode_steps": 18.479
+  },
+  "training_episodes": 512,
+  "seed": 7,
+  "evaluation_seed_start": 900000,
+  "evaluation_seed_end": 900999,
+  "note": "Toy 2D prototype. MAPPO learns decentralized target selection only; low-level movement uses a deterministic local pursuit controller. Results are specific to this fixed configuration and are not physical-drone benchmarks."
+}
